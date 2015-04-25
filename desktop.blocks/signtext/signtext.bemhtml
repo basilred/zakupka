@@ -1,0 +1,16 @@
+block('signtext').content()(function() {
+    var ctx = this.ctx;
+    var img = {
+        block : 'image',
+        mix : { block : 'signtext', elem : 'picture' },
+    }
+    ctx.svg ? img.content = ctx.svg : img.url = ctx.url
+    return [
+        img,
+        {
+            elem: 'text',
+            tag: 'span',
+            content: this.ctx.text
+        }
+    ];
+});

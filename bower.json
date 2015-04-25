@@ -1,0 +1,14 @@
+{
+  "author": "Vassily Krasnov",
+  "name": "zakupka",
+  "email": "mykrasnov@gmail.com",
+  "version": "0.0.0",
+  "ignore": [
+    ".bem/cache",
+    "node_modules",
+    "libs"
+  ],
+  "dependencies": {
+    "bem-components": "v2.1.0"
+  }
+}

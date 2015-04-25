@@ -1,0 +1,24 @@
+block('vip').content()(function() {
+
+    var result = [];
+
+    result.push({
+        elem: 'text',
+        tag: 'span',
+        content: this.ctx.text
+    });
+
+    var stars = this.ctx.stars;
+    while (stars > 0) {
+        result.push({
+            block: 'image',
+            mix: { block: 'vip', elem: 'star' },
+            url: '../../img/star.svg',
+            height: 9
+        });
+        stars--;
+    }
+
+    return result;
+
+});

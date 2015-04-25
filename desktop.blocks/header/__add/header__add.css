@@ -1,0 +1,6 @@
+.header__add
+{
+    max-height: 1em;
+    display: flex;
+    align-items: baseline;
+}

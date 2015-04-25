@@ -1,0 +1,11 @@
+.firmcard__name
+{
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    top: 2.5em;
+    left: 2.375em;
+    width: 20.625em;
+    height: 7.5em;
+}
